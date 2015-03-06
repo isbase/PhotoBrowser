@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A2DDE91AA9AFC6000F04D8 /* HHWebImageDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DDE81AA9AFC6000F04D8 /* HHWebImageDownLoader.m */; };
+		07A2DDEC1AA9B6D1000F04D8 /* HHImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DDEB1AA9B6D1000F04D8 /* HHImageCompat.m */; };
 		07D1D59B1A71E9E3005B3A98 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1D5961A71E9E3005B3A98 /* EGOCache.m */; };
 		07D1D59C1A71E9E3005B3A98 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1D5981A71E9E3005B3A98 /* EGOImageLoadConnection.m */; };
 		07D1D59D1A71E9E3005B3A98 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1D59A1A71E9E3005B3A98 /* EGOImageLoader.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07A2DDE71AA9AFC6000F04D8 /* HHWebImageDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHWebImageDownLoader.h; sourceTree = "<group>"; };
+		07A2DDE81AA9AFC6000F04D8 /* HHWebImageDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHWebImageDownLoader.m; sourceTree = "<group>"; };
+		07A2DDEA1AA9B6D1000F04D8 /* HHImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHImageCompat.h; sourceTree = "<group>"; };
+		07A2DDEB1AA9B6D1000F04D8 /* HHImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHImageCompat.m; sourceTree = "<group>"; };
 		07D1D5951A71E9E3005B3A98 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
 		07D1D5961A71E9E3005B3A98 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
 		07D1D5971A71E9E3005B3A98 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
@@ -86,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A2DDE61AA9AF90000F04D8 /* HHImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				07A2DDE71AA9AFC6000F04D8 /* HHWebImageDownLoader.h */,
+				07A2DDE81AA9AFC6000F04D8 /* HHWebImageDownLoader.m */,
+				07A2DDEA1AA9B6D1000F04D8 /* HHImageCompat.h */,
+				07A2DDEB1AA9B6D1000F04D8 /* HHImageCompat.m */,
+			);
+			name = HHImageLoader;
+			sourceTree = "<group>";
+		};
 		07D1D5941A71E9E3005B3A98 /* EGOImageLoader */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +137,7 @@
 		5F39BF401A714E89001A7039 /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				07A2DDE61AA9AF90000F04D8 /* HHImageLoader */,
 				07D1D5941A71E9E3005B3A98 /* EGOImageLoader */,
 				5F39BF671A714F8D001A7039 /* HHPhotoBrowser */,
 				5F39BF451A714E89001A7039 /* AppDelegate.h */,
@@ -290,8 +308,10 @@
 				5F39BF781A715885001A7039 /* MWTapDetectingImageView.m in Sources */,
 				5F39BF7A1A715885001A7039 /* MWZoomingScrollView.m in Sources */,
 				07D1D59B1A71E9E3005B3A98 /* EGOCache.m in Sources */,
+				07A2DDEC1AA9B6D1000F04D8 /* HHImageCompat.m in Sources */,
 				5F39BF4A1A714E89001A7039 /* ViewController.m in Sources */,
 				07D1D59D1A71E9E3005B3A98 /* EGOImageLoader.m in Sources */,
+				07A2DDE91AA9AFC6000F04D8 /* HHWebImageDownLoader.m in Sources */,
 				5F39BF6A1A714F99001A7039 /* HHFullScreenViewController.m in Sources */,
 				5F39BF791A715885001A7039 /* MWTapDetectingView.m in Sources */,
 				5F39BF6D1A715159001A7039 /* HHPhoto.m in Sources */,
